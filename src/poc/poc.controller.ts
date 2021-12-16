@@ -6,15 +6,25 @@ import {
   Param,
   Patch,
   Delete,
+  UseGuards
 } from '@nestjs/common';
 
+import { ACGuard, UseRoles } from 'nest-access-control';
+import { AuthGuard } from '@nestjs/passport';
+import * as mongoose from 'mongoose';
+
 import { PocService } from './poc.service';
+import { EmployeeService } from '../employee/employee.service';
 
 @Controller('poc')
 export class PocController {
-  constructor(private readonly pocService: PocService) {}
+  constructor(
+    private readonly pocService: PocService,
+    private readonly employeeService: EmployeeService
+  ) {}
 
   @Post()
+  @UseGuards(AuthGuard('local'))
   async addPoc(
     @Body('name') name: string,
     @Body('techStack') techStack: string,
@@ -39,21 +49,32 @@ export class PocController {
       // createdAt,
       // updatedAt,
     );
+    const _id = new mongoose.Types.ObjectId(generatedId);
+    const poc = { _id, name}
+    await this.employeeService.updateEmployeePoc(employeeId, poc)
     return { id: generatedId };
   }
 
   @Get()
+  @UseGuards(AuthGuard('local'), ACGuard)
+  @UseRoles({
+    possession:  'any',
+    action:  'read',
+    resource:  'pocs'
+  })
   async getAllPoc() {
     const poc = await this.pocService.getPocs();
     return poc;
   }
 
   @Get(':id')
+  @UseGuards(AuthGuard('local'), ACGuard)
   getPoc(@Param('id') pocId: string) {
     return this.pocService.getSinglePoc(pocId);
   }
 
   @Patch(':id')
+  @UseGuards(AuthGuard('local'), ACGuard)
   async updatePoc(
     @Param('id') pocId: string,
     @Body('name') name: string,
@@ -80,6 +101,7 @@ export class PocController {
   }
 
   @Delete(':id')
+  @UseGuards(AuthGuard('local'), ACGuard)
   async removePoc(@Param('id') pocId: string) {
     await this.pocService.deletePoc(pocId);
     return null;

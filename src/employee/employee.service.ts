@@ -1,6 +1,9 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
+import * as mongoose from 'mongoose';
+import { Logger } from '@nestjs/common';
 import { Model } from 'mongoose';
+import { UserRoles } from '../auth/user-roles';
 
 import { Employee } from './employee.model';
 
@@ -28,7 +31,8 @@ export class EmployeeService {
     projectType: string,
     primaryKeySkill: string,
     secondaryKeySkill: string,
-    roleId: string,
+    roles: UserRoles,
+    authID: string,
     // createdAt: Date,
     //updatedAt: Date,
   ) {
@@ -50,7 +54,8 @@ export class EmployeeService {
       projectType,
       primaryKeySkill,
       secondaryKeySkill,
-      roleId,
+      roles,
+      authID,
     });
     const result = await newEmployee.save();
     return result.id as string;
@@ -76,7 +81,8 @@ export class EmployeeService {
       projectType: data.projectType,
       primaryKeySkill: data.primaryKeySkill,
       secondaryKeySkill: data.secondaryKeySkill,
-      roleId: data.roleId,
+      roles: data.roles,
+      authID: data.authID,
     }));
   }
 
@@ -101,7 +107,7 @@ export class EmployeeService {
       projectType: data.projectType,
       primaryKeySkill: data.primaryKeySkill,
       secondaryKeySkill: data.secondaryKeySkill,
-      roleId: data.roleId,
+      roles: data.roles,
     };
   }
 
@@ -124,7 +130,10 @@ export class EmployeeService {
     projectType: string,
     primaryKeySkill: string,
     secondaryKeySkill: string,
-    roleId: string,
+    roles: {
+      type: String,
+       enum : ['BU_HEAD', 'HR', 'EMPLOYEE'],
+    },
   ) {
     const updatedEmployee = await this.findEmployee(employeeId);
     if (employeeNumber) {
@@ -178,11 +187,11 @@ export class EmployeeService {
     if (secondaryKeySkill) {
       updatedEmployee.secondaryKeySkill = secondaryKeySkill;
     }
-    if (roleId) {
-      updatedEmployee.roleId = roleId;
+    if (roles) {
+      updatedEmployee.roles = roles;
     }
 
-    updatedEmployee.save();
+    return updatedEmployee.save();
   }
 
   async deleteEmployee(employeeId: string) {
@@ -205,5 +214,39 @@ export class EmployeeService {
       throw new NotFoundException('Could not find employee.');
     }
     return employee;
+  }
+
+  async getEmployeeID(authID: string) {
+    let employeeId = null; 
+    await this.employeeModel.findOne({ "authID": authID }).then(employee => {
+      employeeId = employee._id;
+    })
+    return employeeId;
+  }
+
+  async updateEmployeePoc(
+    employeeId: string,
+     poc: {
+      _id: mongoose.Types.ObjectId,
+      name: string
+  },
+  ) {
+    const updatedEmployee = await this.findEmployee(employeeId);
+    updatedEmployee.poc.push(poc);
+  
+    return updatedEmployee.save();
+  }
+
+  async updateEmployeeCertififation(
+    employeeId: string,
+    certification: {
+      _id: mongoose.Types.ObjectId,
+      name: string
+    },
+  ) {
+    const updatedEmployee = await this.findEmployee(employeeId);
+    updatedEmployee.certification.push(certification);
+  
+    return updatedEmployee.save();
   }
 }

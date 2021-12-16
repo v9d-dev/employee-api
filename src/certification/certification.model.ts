@@ -6,7 +6,11 @@ export const CertificationSchema = new mongoose.Schema({
   complitionDate: { type: Date, required: true },
   expireDate: { type: Date, required: true },
   price: { type: String, required: true },
-  employeeId: { type: String, required: true },
+  employeeId: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+    ref: 'employees'
+  },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
 });
