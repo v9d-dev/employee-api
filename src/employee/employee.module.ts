@@ -11,5 +11,6 @@ import { EmployeeSchema } from './employee.model';
   ],
   controllers: [EmployeeController],
   providers: [EmployeeService],
+  exports: [EmployeeService],
 })
 export class EmployeeModule {}

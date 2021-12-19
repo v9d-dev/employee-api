@@ -6,15 +6,21 @@ import {
   Param,
   Patch,
   Delete,
+  UseGuards,
 } from '@nestjs/common';
+import { ACGuard, UseRoles } from 'nest-access-control';
+
+import { UserRoles } from '../auth/user-roles';
 
 import { EmployeeService } from './employee.service';
+import { AuthGuard } from '@nestjs/passport';
 
 @Controller('employee')
 export class EmployeeController {
   constructor(private readonly employeeService: EmployeeService) {}
 
   @Post()
+  @UseGuards(AuthGuard('local'))
   async addEmployee(
     @Body('employeeNumber') employeeNumber: string,
     @Body('fullName') fullName: string,
@@ -33,7 +39,8 @@ export class EmployeeController {
     @Body('projectType') projectType: string,
     @Body('primaryKeySkill') primaryKeySkill: string,
     @Body('secondaryKeySkill') secondaryKeySkill: string,
-    @Body('roleId') roleId: string,
+    @Body('roles') roles: UserRoles,
+    @Body('authID') authID: string,
 
     // @Body('createdAt') createdAt: Date,
     // @Body('updatedAt') updatedAt: Date,
@@ -56,23 +63,45 @@ export class EmployeeController {
       projectType,
       primaryKeySkill,
       secondaryKeySkill,
-      roleId,
+      roles,
+      authID,
     );
     return { id: generatedId };
   }
 
+  
   @Get()
+  @UseGuards(AuthGuard('local'), ACGuard)
+  @UseRoles({
+    possession:  'any',
+    action:  'read',
+    resource:  'employees'
+  })
   async getAllEmployee() {
     const employee = await this.employeeService.getEmployees();
     return employee;
   }
 
-  @Get(':id')
+  @Get('/:id')
+  @UseGuards(AuthGuard('local'), ACGuard)
+  @UseRoles({
+    possession:  'own',
+    action:  'read',
+    resource:  'employees'
+  })
   getEmployee(@Param('id') employeeId: string) {
     return this.employeeService.getSingleEmployee(employeeId);
   }
 
-  @Patch(':id')
+
+  @Get('/auth/:id')
+  async getEmployeeID(@Param('id') authID: string) {
+    const employeeId = this.employeeService.getEmployeeID(authID)
+    return employeeId;
+  }
+
+  @Patch('/:id')
+  @UseGuards(AuthGuard('local'))
   async updateEmployee(
     @Param('id') employeeId: string,
     @Body('employeeNumber') employeeNumber: string,
@@ -92,10 +121,12 @@ export class EmployeeController {
     @Body('projectType') projectType: string,
     @Body('primaryKeySkill') primaryKeySkill: string,
     @Body('secondaryKeySkill') secondaryKeySkill: string,
-    @Body('roleId') roleId: string,
-    // @Body('employeeId') employeeId: string,
+    @Body('roles') roles: {
+      type: String,
+       enum : ['BU_HEAD', 'HR', 'EMPLOYEE'],
+    } ,
   ) {
-    await this.employeeService.updateEmployee(
+    const data = await this.employeeService.updateEmployee(
       employeeId,
       employeeNumber,
       fullName,
@@ -114,12 +145,18 @@ export class EmployeeController {
       projectType,
       primaryKeySkill,
       secondaryKeySkill,
-      roleId,
+      roles,
     );
-    return null;
+    return data;
   }
 
   @Delete(':id')
+  @UseGuards(AuthGuard('local'), ACGuard)
+  @UseRoles({
+    possession:  'any',
+    action:  'read',
+    resource:  'employees'
+  })
   async removeEmployee(@Param('id') employeeId: string) {
     await this.employeeService.deleteEmployee(employeeId);
     return null;

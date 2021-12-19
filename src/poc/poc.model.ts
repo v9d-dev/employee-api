@@ -7,8 +7,12 @@ export const PocSchema = new mongoose.Schema({
   startDate: { type: Date, required: true },
   finishDate: { type: Date, required: true },
   githubUrl: { type: String, required: true },
-  demoUrl: { type: String, required: true },
-  employeeId: { type: String, required: true },
+  demoUrl: { type: String, required: true },  
+  employeeId: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+    ref: 'employees'
+  },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
 });
