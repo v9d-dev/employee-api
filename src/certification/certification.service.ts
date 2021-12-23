@@ -46,6 +46,20 @@ export class CertificationService {
     }));
   }
 
+  async getFilterdCertification(filterData: object) {
+    const certifications = await this.certificationModel
+      .find(filterData)
+      .exec();
+    return certifications.map(data => ({
+      id: data.id,
+      name: data.name,
+      techStack: data.techStack,
+      complitionDate: data.complitionDate,
+      expireDate: data.expireDate,
+      price: data.price,
+      employeeId: data.employeeId,
+    }));
+  }
   async getSingleCertification(certificationId: string) {
     const certification = await this.findCertification(certificationId);
     return {

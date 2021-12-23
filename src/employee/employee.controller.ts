@@ -83,7 +83,7 @@ export class EmployeeController {
   }
 
   @Post('getdatabyfilter')
-  //@UseGuards(AuthGuard('local'))
+  @UseGuards(AuthGuard('local'))
   async getFilterdEmp(@Body('filter') filterData: object) {
     const employeeData = await this.employeeService.getFilterdEmp(filterData);
     return { result: employeeData };

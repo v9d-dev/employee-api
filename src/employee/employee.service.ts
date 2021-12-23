@@ -87,7 +87,6 @@ export class EmployeeService {
   }
 
   async getFilterdEmp(filterData: object) {
-    console.log({ filterData });
     let employeeData = await this.employeeModel.find(filterData).exec();
     return employeeData.map(data => ({
       employeeNumber: data.employeeNumber,

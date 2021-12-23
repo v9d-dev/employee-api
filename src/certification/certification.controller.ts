@@ -6,7 +6,7 @@ import {
   Param,
   Patch,
   Delete,
-  UseGuards
+  UseGuards,
 } from '@nestjs/common';
 
 import { ACGuard, UseRoles } from 'nest-access-control';
@@ -20,8 +20,8 @@ import { EmployeeService } from '../employee/employee.service';
 export class CertificationController {
   constructor(
     private readonly certificationService: CertificationService,
-    private readonly employeeService: EmployeeService
-    ) {}
+    private readonly employeeService: EmployeeService,
+  ) {}
 
   @Post()
   @UseGuards(AuthGuard('local'))
@@ -42,21 +42,33 @@ export class CertificationController {
       employeeId,
     );
     const _id = new mongoose.Types.ObjectId(generatedId);
-    const certification = { _id, name}
-    await this.employeeService.updateEmployeeCertififation(employeeId, certification)
+    const certification = { _id, name };
+    await this.employeeService.updateEmployeeCertififation(
+      employeeId,
+      certification,
+    );
     return { id: generatedId };
   }
 
   @Get()
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    possession:  'any',
-    action:  'read',
-    resource:  'certifications'
+    possession: 'any',
+    action: 'read',
+    resource: 'certifications',
   })
   async getAllCertification() {
     const certification = await this.certificationService.getCertifications();
     return certification;
+  }
+
+  @Post('getdatabyfilter')
+  @UseGuards(AuthGuard('local'))
+  async getFilterdCertification(@Body('filter') filterData: object) {
+    const result = await this.certificationService.getFilterdCertification(
+      filterData,
+    );
+    return { result };
   }
 
   @Get(':id')

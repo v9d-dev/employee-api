@@ -6,7 +6,7 @@ import {
   Param,
   Patch,
   Delete,
-  UseGuards
+  UseGuards,
 } from '@nestjs/common';
 
 import { ACGuard, UseRoles } from 'nest-access-control';
@@ -20,7 +20,7 @@ import { EmployeeService } from '../employee/employee.service';
 export class PocController {
   constructor(
     private readonly pocService: PocService,
-    private readonly employeeService: EmployeeService
+    private readonly employeeService: EmployeeService,
   ) {}
 
   @Post()
@@ -50,29 +50,36 @@ export class PocController {
       // updatedAt,
     );
     const _id = new mongoose.Types.ObjectId(generatedId);
-    const poc = { _id, name}
-    await this.employeeService.updateEmployeePoc(employeeId, poc)
+    const poc = { _id, name };
+    await this.employeeService.updateEmployeePoc(employeeId, poc);
     return { id: generatedId };
   }
 
   @Get()
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    resource:  'pocs',
-    action:  'read',
-    possession:  'any',
+    resource: 'pocs',
+    action: 'read',
+    possession: 'any',
   })
   async getAllPoc() {
     const poc = await this.pocService.getPocs();
     return poc;
   }
 
+  @Post('getdatabyfilter')
+  @UseGuards(AuthGuard('local'))
+  async getFilterdPocs(@Body('filter') filterData: object) {
+    const result = await this.pocService.getFilterdPocs(filterData);
+    return { result };
+  }
+
   @Get(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    resource:  'pocs',
-    action:  'read',
-    possession:  'own',
+    resource: 'pocs',
+    action: 'read',
+    possession: 'own',
   })
   getPoc(@Param('id') pocId: string) {
     return this.pocService.getSinglePoc(pocId);
@@ -81,9 +88,9 @@ export class PocController {
   @Patch(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    resource:  'pocs',
-    action:  'update',
-    possession:  'any',
+    resource: 'pocs',
+    action: 'update',
+    possession: 'any',
   })
   async updatePoc(
     @Param('id') pocId: string,
@@ -113,9 +120,9 @@ export class PocController {
   @Delete(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    resource:  'pocs',
-    action:  'delete',
-    possession:  'any',
+    resource: 'pocs',
+    action: 'delete',
+    possession: 'any',
   })
   async removePoc(@Param('id') pocId: string) {
     await this.pocService.deletePoc(pocId);

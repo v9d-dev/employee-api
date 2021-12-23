@@ -47,6 +47,21 @@ export class PocService {
     }));
   }
 
+  async getFilterdPocs(filterData: object) {
+    const poc = await this.pocModel.find(filterData).exec();
+    return poc.map(data => ({
+      id: data.id,
+      name: data.name,
+      techStack: data.techStack,
+      description: data.description,
+      startDate: data.startDate,
+      finishDate: data.finishDate,
+      githubUrl: data.githubUrl,
+      demoUrl: data.demoUrl,
+      employeeId: data.employeeId,
+    }));
+  }
+
   async getSinglePoc(pocId: string) {
     const poc = await this.findPoc(pocId);
     return {
