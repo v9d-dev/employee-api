@@ -87,6 +87,9 @@ export class CertificationService {
     if (employeeId) {
       updatedCertification.employeeId = employeeId;
     }
+
+    updatedCertification.updatedAt = new Date(Date.now());
+
     updatedCertification.save();
   }
 

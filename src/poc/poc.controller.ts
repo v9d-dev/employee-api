@@ -58,9 +58,9 @@ export class PocController {
   @Get()
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    possession:  'any',
+    resource:  'pocs',
     action:  'read',
-    resource:  'pocs'
+    possession:  'any',
   })
   async getAllPoc() {
     const poc = await this.pocService.getPocs();
@@ -69,12 +69,22 @@ export class PocController {
 
   @Get(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
+  @UseRoles({
+    resource:  'pocs',
+    action:  'read',
+    possession:  'own',
+  })
   getPoc(@Param('id') pocId: string) {
     return this.pocService.getSinglePoc(pocId);
   }
 
   @Patch(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
+  @UseRoles({
+    resource:  'pocs',
+    action:  'update',
+    possession:  'any',
+  })
   async updatePoc(
     @Param('id') pocId: string,
     @Body('name') name: string,
@@ -102,6 +112,11 @@ export class PocController {
 
   @Delete(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
+  @UseRoles({
+    resource:  'pocs',
+    action:  'delete',
+    possession:  'any',
+  })
   async removePoc(@Param('id') pocId: string) {
     await this.pocService.deletePoc(pocId);
     return null;

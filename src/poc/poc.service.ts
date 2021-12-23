@@ -99,6 +99,8 @@ export class PocService {
       updatedPoc.employeeId = employeeId;
     }
 
+    updatedPoc.updatedAt = new Date(Date.now());
+
     updatedPoc.save();
     return updatedPoc;
   }

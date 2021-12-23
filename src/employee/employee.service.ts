@@ -88,27 +88,7 @@ export class EmployeeService {
 
   async getSingleEmployee(employeeId: string) {
     const data = await this.findEmployee(employeeId);
-    return {
-      id: data.id,
-      employeeNumber: data.employeeNumber,
-      fullName: data.fullName,
-      previousDesignation: data.previousDesignation,
-      currentDesignation: data.currentDesignation,
-      dateOfJoining: data.dateOfJoining,
-      dateOfBirth: data.dateOfBirth,
-      mailId: data.mailId,
-      mobileNumber: data.mobileNumber,
-      reportingManager: data.reportingManager,
-      buHead: data.buHead,
-      overallExperience: data.overallExperience,
-      successiveExperience: data.successiveExperience,
-      earlierProject: data.earlierProject,
-      currentProject: data.currentProject,
-      projectType: data.projectType,
-      primaryKeySkill: data.primaryKeySkill,
-      secondaryKeySkill: data.secondaryKeySkill,
-      roles: data.roles,
-    };
+    return data;
   }
 
   async updateEmployee(
@@ -191,6 +171,8 @@ export class EmployeeService {
       updatedEmployee.roles = roles;
     }
 
+    updatedEmployee.updatedAt = new Date(Date.now());
+
     return updatedEmployee.save();
   }
 
@@ -220,6 +202,8 @@ export class EmployeeService {
     let employeeId = null; 
     await this.employeeModel.findOne({ "authID": authID }).then(employee => {
       employeeId = employee._id;
+    }).catch(err => {
+      throw new NotFoundException('Could not find employee.');
     })
     return employeeId;
   }
