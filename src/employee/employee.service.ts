@@ -86,6 +86,32 @@ export class EmployeeService {
     }));
   }
 
+  async getFilterdEmp(filterData: object) {
+    console.log({ filterData });
+    let employeeData = await this.employeeModel.find(filterData).exec();
+    return employeeData.map(data => ({
+      employeeNumber: data.employeeNumber,
+      fullName: data.fullName,
+      previousDesignation: data.previousDesignation,
+      currentDesignation: data.currentDesignation,
+      dateOfJoining: data.dateOfJoining,
+      dateOfBirth: data.dateOfBirth,
+      mailId: data.mailId,
+      mobileNumber: data.mobileNumber,
+      reportingManager: data.reportingManager,
+      buHead: data.buHead,
+      overallExperience: data.overallExperience,
+      successiveExperience: data.successiveExperience,
+      earlierProject: data.earlierProject,
+      currentProject: data.currentProject,
+      projectType: data.projectType,
+      primaryKeySkill: data.primaryKeySkill,
+      secondaryKeySkill: data.secondaryKeySkill,
+      roles: data.roles,
+      authID: data.authID,
+    }));
+  }
+
   async getSingleEmployee(employeeId: string) {
     const data = await this.findEmployee(employeeId);
     return data;
@@ -111,8 +137,8 @@ export class EmployeeService {
     primaryKeySkill: string,
     secondaryKeySkill: string,
     roles: {
-      type: String,
-       enum : ['BU_HEAD', 'HR', 'EMPLOYEE'],
+      type: String;
+      enum: ['BU_HEAD', 'HR', 'EMPLOYEE'];
     },
   ) {
     const updatedEmployee = await this.findEmployee(employeeId);
@@ -199,38 +225,41 @@ export class EmployeeService {
   }
 
   async getEmployeeID(authID: string) {
-    let employeeId = null; 
-    await this.employeeModel.findOne({ "authID": authID }).then(employee => {
-      employeeId = employee._id;
-    }).catch(err => {
-      throw new NotFoundException('Could not find employee.');
-    })
+    let employeeId = null;
+    await this.employeeModel
+      .findOne({ authID: authID })
+      .then(employee => {
+        employeeId = employee._id;
+      })
+      .catch(err => {
+        throw new NotFoundException('Could not find employee.');
+      });
     return employeeId;
   }
 
   async updateEmployeePoc(
     employeeId: string,
-     poc: {
-      _id: mongoose.Types.ObjectId,
-      name: string
-  },
+    poc: {
+      _id: mongoose.Types.ObjectId;
+      name: string;
+    },
   ) {
     const updatedEmployee = await this.findEmployee(employeeId);
     updatedEmployee.poc.push(poc);
-  
+
     return updatedEmployee.save();
   }
 
   async updateEmployeeCertififation(
     employeeId: string,
     certification: {
-      _id: mongoose.Types.ObjectId,
-      name: string
+      _id: mongoose.Types.ObjectId;
+      name: string;
     },
   ) {
     const updatedEmployee = await this.findEmployee(employeeId);
     updatedEmployee.certification.push(certification);
-  
+
     return updatedEmployee.save();
   }
 }

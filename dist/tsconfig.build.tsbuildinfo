@@ -985,7 +985,7 @@
         "version": "e7e859feab0004e436960834f5be706cd78a46b6637512d08a75c2c5dcdf4143",
         "signature": "e7e859feab0004e436960834f5be706cd78a46b6637512d08a75c2c5dcdf4143"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts": {
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/node_modules/axios/index.d.ts": {
         "version": "9b3812f5ae5c9c8c9daf7107e1041f4ad9d19aebd12b738a81f22a1ac1f5e371",
         "signature": "9b3812f5ae5c9c8c9daf7107e1041f4ad9d19aebd12b738a81f22a1ac1f5e371"
       },
@@ -1105,69 +1105,73 @@
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts": {
-        "version": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253",
-        "signature": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/inject-roles-builder.decorator.d.ts": {
+        "version": "d077f416e5b99898c7a52a3239b0e3e70f1f0507a5fc64706e4687160c1376f7",
+        "signature": "d077f416e5b99898c7a52a3239b0e3e70f1f0507a5fc64706e4687160c1376f7"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts": {
-        "version": "5c9a8cff51298476b1af12ccf3ef8cdac951aad37abd7e98445a04b1fc7d7b7d",
-        "signature": "5c9a8cff51298476b1af12ccf3ef8cdac951aad37abd7e98445a04b1fc7d7b7d"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/role.interface.d.ts": {
+        "version": "eeb28484f5d07c76936834dd407da5685ed652be0b7d33baa8fb10cf6d8b8e46",
+        "signature": "eeb28484f5d07c76936834dd407da5685ed652be0b7d33baa8fb10cf6d8b8e46"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts": {
-        "version": "0646760262e99f54234892ad867f38d5e420a37217d98ef217359138ba07318b",
-        "signature": "0646760262e99f54234892ad867f38d5e420a37217d98ef217359138ba07318b"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/use-roles.decorator.d.ts": {
+        "version": "33fec4a0f5d914616856928bd0c8a555757431edebcdce881b4721b8f4ddef14",
+        "signature": "33fec4a0f5d914616856928bd0c8a555757431edebcdce881b4721b8f4ddef14"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts": {
-        "version": "ec7b14aeab6ad75fa8d42f3589b7f6a849f19c48392484f3aac53e9c1ff3b0b9",
-        "signature": "a2c3131dd0e35d6f012f9738ff1c2b88e0ba7779731fbc4305eb27a9dee9db98"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/user-roles.decorators.d.ts": {
+        "version": "24007916ae915e24ae41d5df3985e9f36df6f5b8995464fa51136222214451dc",
+        "signature": "24007916ae915e24ae41d5df3985e9f36df6f5b8995464fa51136222214451dc"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts": {
-        "version": "15021d6b2a5d87bfeb9c5216848a2c807e46388b0169d79d3d84e17203395512",
-        "signature": "a2d862f213ed79ddcbf7a6b3ac703d4dde0adc75f3fd8c7ac5033c3c4f25c78c"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/index.d.ts": {
+        "version": "190c360cb530bd52f2e7443040198833685f67f8ae94d5308e82a6cbb87cb264",
+        "signature": "190c360cb530bd52f2e7443040198833685f67f8ae94d5308e82a6cbb87cb264"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts": {
-        "version": "32b401b905fdb540ad1650d37aa6c73290bb9e20b7b4d62d9006b3c672fcd921",
-        "signature": "7b18f22aef4b07023fe01884a209ee79a3c20dd9e3f916482ae8b12b3cd5b126"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/AccessControlError.d.ts": {
+        "version": "21ab8376f34438e6670e729a6f7a40579916e422bbb48fc5d7828668740d6af6",
+        "signature": "21ab8376f34438e6670e729a6f7a40579916e422bbb48fc5d7828668740d6af6"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.module.ts": {
-        "version": "365a56573f5915f95fa14476f00972d131fcc73c135327b68c62a6ef6cec5089",
-        "signature": "25e1c267380020ab6c21736d55507a2a27d81b13967b7df7fbccda7dc9c82382"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IAccessInfo.d.ts": {
+        "version": "5d994fb13db4ae440aa472d24054c97df0af2ea73c6279908ed7285c0b81a308",
+        "signature": "5d994fb13db4ae440aa472d24054c97df0af2ea73c6279908ed7285c0b81a308"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts": {
-        "version": "09af93db18582cbe24862d8e6cf2cc70aa0872415a2065b92bc72be80fda8326",
-        "signature": "c80c2df38eceb223bb8b3a761ee20cc3ac44bc5ae5cec34c3495b7338ea6a463"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Access.d.ts": {
+        "version": "394816d824e0a7e0235d85939f2d2ba367d03b9f25a93c4f1835d2ffff40ae83",
+        "signature": "394816d824e0a7e0235d85939f2d2ba367d03b9f25a93c4f1835d2ffff40ae83"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts": {
-        "version": "4ac913d68bd3ea22b85aa57df24788b2820a861b8f5731edf2e25e76834d136b",
-        "signature": "6afcacca4c8eb7653d7a21646f02e30d54dd41bd8d47d63dcde09cd2484095e2"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IQueryInfo.d.ts": {
+        "version": "907e91e84aaf46b72ce7eaeb2b53395777f1c6dbeaab6aee4b0dac63d5b9526d",
+        "signature": "907e91e84aaf46b72ce7eaeb2b53395777f1c6dbeaab6aee4b0dac63d5b9526d"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts": {
-        "version": "162fd21da3dbf91b37f34e76a1e6b5ee0f8692f20092b4d65ac70591f1fb0083",
-        "signature": "38deb054cd2e63d831087621890d5ead18b66a8b0c0692412959dbef1c0e86c4"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Query.d.ts": {
+        "version": "275d125437e0908fcc58042e098ea7cab083cbc22b96e5beeed01b66887d8d0b",
+        "signature": "275d125437e0908fcc58042e098ea7cab083cbc22b96e5beeed01b66887d8d0b"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.module.ts": {
-        "version": "0a68706b9859bdefce732bdd56f6ae09be3b46684962e3fab33f8459e162ef64",
-        "signature": "fe9a1d72fb24a28726783a9e0470dfc221bd37b1d43e65d7759b6313c41bcd98"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Permission.d.ts": {
+        "version": "faa221dc1db90d1e1f2d033e6e7efb37db927dcd8a7d4ea86a0946cd356a2f74",
+        "signature": "faa221dc1db90d1e1f2d033e6e7efb37db927dcd8a7d4ea86a0946cd356a2f74"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts": {
-        "version": "291e80921264a5411a528bbad04ed64e796ebc2aa5d0253ce8001bdc5344a352",
-        "signature": "a47311a3e53092288e05ebd024039b3df179a654f7898b47b0277a7948ff898c"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts": {
+        "version": "b0d89bd0a13cba334bc24277921237a0b2297dbea85b8cfcc034370a58eccbbf",
+        "signature": "b0d89bd0a13cba334bc24277921237a0b2297dbea85b8cfcc034370a58eccbbf"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts": {
-        "version": "4e99be2efb425b85a0e73641ae5e4ae26825be094a496568c6f5b3ae041c57db",
-        "signature": "9fad5c20699445847c889f97c39a51cb0a602a7f8150235af539f1dd77dd85e4"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/AccessControl.d.ts": {
+        "version": "034f28e7de0a8307e6994340be68ec03e47ee2fe4b2cb07e53bc9bd1bf55789b",
+        "signature": "034f28e7de0a8307e6994340be68ec03e47ee2fe4b2cb07e53bc9bd1bf55789b"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts": {
-        "version": "6c5460d7d525cc1ebe863c2ea17b7d964a2dc15905616bb05afc69de107e3362",
-        "signature": "f3e4fc48b8a0b80c43bdfe58ad063a6f47454b0c777a7be65dbcf426ce75ff9b"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/index.d.ts": {
+        "version": "265a18f7a8381e9b5f193b1b94c0e20eca05004e7cee643a434415c751c97803",
+        "signature": "265a18f7a8381e9b5f193b1b94c0e20eca05004e7cee643a434415c751c97803"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts": {
-        "version": "14bcc71503f190cc1ffca9b6442cf66d313ffe6fbe027053addf5e641fe15837",
-        "signature": "9aa7a7795f7cbd889cc5cb74159ca280a19ea2006569a3c5c13aaf5c8deefe64"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts": {
+        "version": "37db9e8549c099768f6d79f454449152a80e55c67195d5631582c76f3342d330",
+        "signature": "37db9e8549c099768f6d79f454449152a80e55c67195d5631582c76f3342d330"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.module.ts": {
-        "version": "c7f2e6fef66bbf0d78c6dd502063b0ca9f18804bbef2b68e596eb10da3aa1d59",
-        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/ac-options.interface.d.ts": {
+        "version": "aa1e11c99f533b6b6b4b249cb9855767c33d50372e3bb49760d5a3aaae3e91e5",
+        "signature": "aa1e11c99f533b6b6b4b249cb9855767c33d50372e3bb49760d5a3aaae3e91e5"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.module.d.ts": {
+        "version": "8c933b3522c0d6da1be70bbb6c073d6d67ad6f85e566c55dbb391b590fc998ba",
+        "signature": "8c933b3522c0d6da1be70bbb6c073d6d67ad6f85e566c55dbb391b590fc998ba"
       },
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
         "version": "285fd4018f9de87c5972beb9133971c99212458bcfc317f1b3851adcc86d84b7",
@@ -1281,21 +1285,41 @@
         "version": "19e9aee9dcbcb693ecc8c72c4a0022162ffccfe6c79dc0cd643cd40e0f2355db",
         "signature": "19e9aee9dcbcb693ecc8c72c4a0022162ffccfe6c79dc0cd643cd40e0f2355db"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.guard.d.ts": {
+        "version": "8d78dee70fb4cae738407fa8523ce3ee9773a4ff5c4b97321cc53f2f9cbbc68e",
+        "signature": "8d78dee70fb4cae738407fa8523ce3ee9773a4ff5c4b97321cc53f2f9cbbc68e"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts": {
-        "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
-        "signature": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/constants.d.ts": {
+        "version": "46e2075250e1af04099e3d2e30ee859f5c6d5d566655452aba30ade2e57481e1",
+        "signature": "46e2075250e1af04099e3d2e30ee859f5c6d5d566655452aba30ade2e57481e1"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts": {
-        "version": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2",
-        "signature": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts": {
+        "version": "4baeae185ee4f642778604553b7be107d40cb0fb6f98840969bc5384380b8259",
+        "signature": "4baeae185ee4f642778604553b7be107d40cb0fb6f98840969bc5384380b8259"
       },
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cookiejar/index.d.ts": {
-        "version": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
-        "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/abstract.strategy.d.ts": {
+        "version": "ba63131c5e91f797736444933af16ffa42f9f8c150d859ec65f568f037a416ea",
+        "signature": "ba63131c5e91f797736444933af16ffa42f9f8c150d859ec65f568f037a416ea"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts": {
+        "version": "142e2e1abd8603dfdeaa1c88d73003a7912aa949b3a19234fa91f729ebfa2fcc",
+        "signature": "142e2e1abd8603dfdeaa1c88d73003a7912aa949b3a19234fa91f729ebfa2fcc"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts": {
+        "version": "340a45cd77b41d8a6deda248167fa23d3dc67ec798d411bd282f7b3d555b1695",
+        "signature": "340a45cd77b41d8a6deda248167fa23d3dc67ec798d411bd282f7b3d555b1695"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts": {
+        "version": "0e9aa853b5eb2ca09e0e3e3eb94cbd1d5fb3d682ab69817d4d11fe225953fc57",
+        "signature": "0e9aa853b5eb2ca09e0e3e3eb94cbd1d5fb3d682ab69817d4d11fe225953fc57"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/auth.guard.d.ts": {
+        "version": "ffa1885ad546522fa1046644db93b17de7a29191a547edeeac57391909a73846",
+        "signature": "ffa1885ad546522fa1046644db93b17de7a29191a547edeeac57391909a73846"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport.module.d.ts": {
+        "version": "793c353144f16601da994fa4e62c09b7525836ce999c44f69c28929072ca206a",
+        "signature": "793c353144f16601da994fa4e62c09b7525836ce999c44f69c28929072ca206a"
       },
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/range-parser/index.d.ts": {
         "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
@@ -1313,9 +1337,145 @@
         "version": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff",
         "signature": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff"
       },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts": {
+        "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
+        "signature": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts": {
+        "version": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2",
+        "signature": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2"
+      },
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts": {
         "version": "a6742e25ac12860727c22a379707e050a126c48c4dd98ddd795a3a33dd0a63c7",
         "signature": "a6742e25ac12860727c22a379707e050a126c48c4dd98ddd795a3a33dd0a63c7"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts": {
+        "version": "7cee402d3c866d1fd7c8f12275c6afc350690e4e17db6bd6b86bbb501466140b",
+        "signature": "7cee402d3c866d1fd7c8f12275c6afc350690e4e17db6bd6b86bbb501466140b"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.serializer.d.ts": {
+        "version": "599ac4a84b7aa6a298731179ec1663a623ff8ac324cdc1dabb9c73c1259dc854",
+        "signature": "599ac4a84b7aa6a298731179ec1663a623ff8ac324cdc1dabb9c73c1259dc854"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.strategy.d.ts": {
+        "version": "100509817f7a12b93f2ca4e07c1e3fe7f73ce2cbe2d69b609df2bf35fbbe7cf8",
+        "signature": "100509817f7a12b93f2ca4e07c1e3fe7f73ce2cbe2d69b609df2bf35fbbe7cf8"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/index.d.ts": {
+        "version": "585bc61f439c027640754dd26e480afa202f33e51db41ee283311a59c12c62e7",
+        "signature": "585bc61f439c027640754dd26e480afa202f33e51db41ee283311a59c12c62e7"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/index.d.ts": {
+        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts": {
+        "version": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253",
+        "signature": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts": {
+        "version": "5c9a8cff51298476b1af12ccf3ef8cdac951aad37abd7e98445a04b1fc7d7b7d",
+        "signature": "5c9a8cff51298476b1af12ccf3ef8cdac951aad37abd7e98445a04b1fc7d7b7d"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts": {
+        "version": "0646760262e99f54234892ad867f38d5e420a37217d98ef217359138ba07318b",
+        "signature": "0646760262e99f54234892ad867f38d5e420a37217d98ef217359138ba07318b"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts": {
+        "version": "60e71195cbfb97bd32106b34a78ba1415e3e5cdd9c445a640bde8bfadc611a3b",
+        "signature": "a2c3131dd0e35d6f012f9738ff1c2b88e0ba7779731fbc4305eb27a9dee9db98"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts": {
+        "version": "b1309ae2cb68bcf276cda84f2a6a76210e47ad253821e9485bda8aea1e486a3c",
+        "signature": "a2d862f213ed79ddcbf7a6b3ac703d4dde0adc75f3fd8c7ac5033c3c4f25c78c"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts": {
+        "version": "2f9cd0ff7db05321b43ce5d4c6b00a15ae1faefd4875abc3602d104c3ebcb1c4",
+        "signature": "10f3b000e0925d02ed69c9560cbb26cbdd4a90d2e02fcae3f91ac8e837d24d25"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts": {
+        "version": "dd50db84e58d33e2887dcdf96e170979ab4bb8ce51f4315411737d7178a1d0c9",
+        "signature": "163586ce75b9b97722a68f56cd116a12edea9f75d96b26882b10a92680e33927"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts": {
+        "version": "e4b87830b2702c2d3a80d5762d341b00cbbce8893304ca7e0dfde2fa20f8c6bd",
+        "signature": "eb4746bc59b8645612a816934cd0d0cdd135dcfc6bdd8383f01ddf368094b017"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts": {
+        "version": "1f1e758cfa11bfc140a2e428a134de118d110e674443a4ffb63278710278ecbf",
+        "signature": "89c4af623c7f90a7bb1d9ca73d62481cd206efdc7e6570561bd379cfc239a915"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts": {
+        "version": "6f1b0058d823d2d68eac7149b7b93c1bd15e2b46c46819b95dce55f4ff18efaf",
+        "signature": "5ef8863ca8d2f4c854fc86dd2c889479553e55104fedbd4ea86e79aa1fb943d2"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts": {
+        "version": "a53c6feeb6e737734a328610ab0a91f5fea0a622c7db7a148a1202e0f55c9ed1",
+        "signature": "9aa7a7795f7cbd889cc5cb74159ca280a19ea2006569a3c5c13aaf5c8deefe64"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.module.ts": {
+        "version": "4ce8c1b0675dfc83a2af248cdbd1131c83a51204ede87d9c99c2d6cd2fafee8b",
+        "signature": "25e1c267380020ab6c21736d55507a2a27d81b13967b7df7fbccda7dc9c82382"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts": {
+        "version": "5c05e6902cb03015f7d63737574d69e3ea6fdc246213d6f7938ffb8d1b2bd2fa",
+        "signature": "c80c2df38eceb223bb8b3a761ee20cc3ac44bc5ae5cec34c3495b7338ea6a463"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts": {
+        "version": "eb69200b2ab27ee8340d97d49f57dd8a0f4a18a1ee49b0b036dcfcb9726125d1",
+        "signature": "6afcacca4c8eb7653d7a21646f02e30d54dd41bd8d47d63dcde09cd2484095e2"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts": {
+        "version": "fb31b1dbc0e57e2f82083bfb423028bc1a4b733e8368afb76680206b7c6b8c58",
+        "signature": "6081a846c39104bace682d61c527799cb6e8f31494270634b4fc083dc1f1fa3a"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.module.ts": {
+        "version": "d7597964af1a7af005b2c018536d7b6a9f90d60bbee2bb858cfe1a5e62fea0f9",
+        "signature": "fe9a1d72fb24a28726783a9e0470dfc221bd37b1d43e65d7759b6313c41bcd98"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts": {
+        "version": "644c59289eb29590d65062c5b64dda9ef2797ce120071265a9099436f0d41a16",
+        "signature": "644c59289eb29590d65062c5b64dda9ef2797ce120071265a9099436f0d41a16"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.service.ts": {
+        "version": "89d1771f8eecdd0fa6fdf12ced39fcc861e139f7c1fb6689b5261c911e661d74",
+        "signature": "cb8e3a35b08d800605822a955fae96760defce6b9977fefbdef83b345381fc31"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-strategy/index.d.ts": {
+        "version": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52",
+        "signature": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-local/index.d.ts": {
+        "version": "25e05fe63d24c13857e295d74010b5694894f571698e31ae555e0577331a2ce4",
+        "signature": "25e05fe63d24c13857e295d74010b5694894f571698e31ae555e0577331a2ce4"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/local.strategy.ts": {
+        "version": "d2db225a9f3ca4c187b8948b528971d9d9125112e50af7b26c7c75773c30a08d",
+        "signature": "39bf3723e4c3586f1a83e77ed8e114db528f87fad04f166800f225a0ef248e1a"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.module.ts": {
+        "version": "5c81abb37fe2ae0dd26f46e6aa49b8be1393891906d21098ec3b1dd446c55672",
+        "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.module.ts": {
+        "version": "33b91465de8d1a09350dba7950d1356ceceb7c5a947ba43a0e6cfc91b0398206",
+        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/main.ts": {
+        "version": "d36cf8da2bc1f0b59181b99fce41c42db0005bd7265fdf69767125cb9eca7105",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/accepts/index.d.ts": {
+        "version": "6738101ae8e56cd3879ab3f99630ada7d78097fc9fd334df7e766216778ca219",
+        "signature": "6738101ae8e56cd3879ab3f99630ada7d78097fc9fd334df7e766216778ca219"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cookiejar/index.d.ts": {
+        "version": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
+        "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cors/index.d.ts": {
+        "version": "6fbd58e4015b9ae31ea977d4d549eb24a1102cc798b57ec5d70868b542c06612",
+        "signature": "6fbd58e4015b9ae31ea977d4d549eb24a1102cc798b57ec5d70868b542c06612"
       },
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/jest/index.d.ts": {
         "version": "37dbdee3bb13bc254e9d75bbb75569e807369868e5cbd89ce72aa77fb22fcb75",
@@ -1324,6 +1484,14 @@
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/json5/index.d.ts": {
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/long/index.d.ts": {
+        "version": "e8465811693dfe4e96ef2b3dffda539d6edfe896961b7af37b44db2c0e48532b",
+        "signature": "e8465811693dfe4e96ef2b3dffda539d6edfe896961b7af37b44db2c0e48532b"
+      },
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/qs/index.d.ts": {
+        "version": "ba601641fac98c229ccd4a303f747de376d761babb33229bb7153bed9356c9cc",
+        "signature": "ba601641fac98c229ccd4a303f747de376d761babb33229bb7153bed9356c9cc"
       },
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/superagent/index.d.ts": {
         "version": "e8bd972c3895277d7d9e702262a0408fbe36bb69c733bf26f9f15c396cad34c5",
@@ -2803,12 +2971,12 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts": [
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/node_modules/axios/index.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/node_modules/axios/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
@@ -2825,7 +2993,7 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/http/http.service.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/node_modules/axios/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
@@ -2980,121 +3148,94 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/inject-roles-builder.decorator.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/tls.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/role.interface.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts": [
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/use-roles.decorator.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/role.interface.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts": [
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/user-roles.decorators.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.module.ts": [
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/inject-roles-builder.decorator.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/use-roles.decorator.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/user-roles.decorators.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/AccessControlError.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IAccessInfo.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Access.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IQueryInfo.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Query.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Permission.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/AccessControlError.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IAccessInfo.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Access.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IQueryInfo.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Query.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Permission.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/AccessControl.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/AccessControl.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/ac-options.interface.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.module.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.module.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.module.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.controller.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.service.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.module.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.module.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/ac-options.interface.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3287,26 +3428,56 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/main.ts": [
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.guard.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/constants.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.module.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/role.interface.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.guard.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/constants.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cookiejar/index.d.ts": [
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/abstract.strategy.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/auth.guard.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport.module.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3332,10 +3503,260 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/serve-static/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.serializer.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.strategy.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/abstract.strategy.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/auth.guard.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport.module.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.serializer.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.strategy.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/tls.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.module.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.module.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.service.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-strategy/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-local/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-strategy/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/local.strategy.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-local/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.module.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/local.strategy.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.module.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.controller.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/main.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.module.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/accepts/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cookiejar/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cors/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -3344,6 +3765,14 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/json5/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/long/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/qs/index.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -4816,7 +5245,7 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts": [
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/node_modules/axios/index.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -4985,59 +5414,96 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/inject-roles-builder.decorator.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/tls.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/role.interface.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/use-roles.decorator.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/role.interface.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/user-roles.decorators.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/inject-roles-builder.decorator.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/use-roles.decorator.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/user-roles.decorators.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/AccessControlError.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IAccessInfo.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Access.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IQueryInfo.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Query.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Permission.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts"
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/AccessControlError.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IAccessInfo.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Access.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/IQueryInfo.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Query.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/Permission.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/AccessControl.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/AccessControl.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/accesscontrol/lib/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/ac-options.interface.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.module.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/ac-options.interface.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
@@ -5228,20 +5694,56 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.guard.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts": [
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
-        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/constants.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cookiejar/index.d.ts": [
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/decorators/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.module.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/roles-builder.class.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/role.interface.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/access-control.guard.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/constants.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/abstract.strategy.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/auth.guard.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport.module.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5267,10 +5769,158 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/serve-static/index.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.serializer.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.strategy.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/abstract.strategy.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/auth.guard.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/interfaces/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport.module.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.serializer.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/passport/passport.strategy.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/passport/dist/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/tls.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/nest-access-control/index.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/user-roles.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.service.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-strategy/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-local/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-strategy/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/local.strategy.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/src/auth/auth.service.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/passport-local/index.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/accepts/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cookiejar/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cors/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5279,6 +5929,14 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/json5/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/long/index.d.ts": [
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
+        "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/qs/index.d.ts": [
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5297,341 +5955,7 @@
         "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
-    "semanticDiagnosticsPerFile": [
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es6.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es5.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2016.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2017.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2018.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.dom.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.dom.iterable.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.scripthost.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/reflect-metadata/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/cache.constants.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/abstract.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/controllers/controller-metadata.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/controllers/controller.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/features/arguments-host.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/exceptions/exception-filter.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/Subscription.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/types.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/Subscriber.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/Operator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/iif.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/throwError.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/Observable.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/Subject.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/ConnectableObservable.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/operators/groupBy.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/symbol/observable.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/BehaviorSubject.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/ReplaySubject.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/AsyncSubject.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/Scheduler.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/Action.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/AsyncScheduler.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/AsyncAction.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/AsapScheduler.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/asap.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/async.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/QueueScheduler.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/queue.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/AnimationFrameScheduler.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/animationFrame.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduler/VirtualTimeScheduler.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/Notification.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/pipe.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/noop.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/identity.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/isObservable.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/ArgumentOutOfRangeError.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/EmptyError.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/ObjectUnsubscribedError.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/UnsubscriptionError.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/util/TimeoutError.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/bindCallback.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/bindNodeCallback.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/InnerSubscriber.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/OuterSubscriber.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/combineLatest.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/concat.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/defer.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/empty.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/forkJoin.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/from.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/fromEvent.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/fromEventPattern.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/generate.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/interval.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/merge.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/never.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/of.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/onErrorResumeNext.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/pairs.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/partition.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/race.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/range.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/timer.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/using.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/observable/zip.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/scheduled/scheduled.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/internal/config.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/rxjs/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/exceptions/rpc-exception-filter.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/exceptions/ws-exception-filter.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/external/validation-error.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/features/execution-context.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/features/can-activate.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/features/custom-route-param-factory.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/features/nest-interceptor.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/features/paramtype.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/features/pipe-transform.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/enums/request-method.enum.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/enums/http-status.enum.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/enums/shutdown-signal.enum.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/enums/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/external/https-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/services/logger.service.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/http/http-server.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/middleware/middleware-configuration.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/middleware/middleware-consumer.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/middleware/middleware-config-proxy.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/middleware/nest-middleware.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/middleware/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/modules/forward-reference.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/scope-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/modules/provider.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/modules/dynamic-module.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/modules/nest-module.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/modules/on-destroy.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/modules/on-init.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/nest-application-context.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/enums/transport.enum.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/globals.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/assert.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/async_hooks.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/buffer.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/child_process.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/cluster.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/console.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/constants.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/crypto.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/dgram.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/dns.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/domain.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/events.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/fs.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/http2.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/https.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/inspector.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/module.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/net.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/os.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/path.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/perf_hooks.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/process.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/punycode.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/querystring.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/readline.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/repl.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/stream.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/string_decoder.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/timers.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/tls.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/trace_events.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/tty.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/url.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/util.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/v8.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/vm.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/worker_threads.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/zlib.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/base.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/util.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/globals.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/node/ts3.2/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/external/mqtt-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/microservices/custom-transport-strategy.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/microservices/microservice-configuration.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/websockets/web-socket-adapter.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/nest-application.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/nest-microservice.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/on-application-bootstrap.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/on-application-shutdown.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/request-mapping-metadata.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/interfaces/cache-manager.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/interfaces/cache-module.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/cache.module.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/decorators/cache-key.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/decorators/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/interceptors/cache.interceptor.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/interceptors/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/interfaces/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/cache/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/bind.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/catch.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/controller.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/dependencies.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/exception-filters.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/inject.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/injectable.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/optional.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/set-metadata.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/use-guards.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/use-interceptors.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/use-pipes.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/core/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/modules/module.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/modules/single-scope.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/modules/global.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/modules/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/http/request-mapping.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/http/route-params.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/http/http-code.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/http/create-route-param-metadata.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/http/render.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/http/header.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/http/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/decorators/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/http.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/bad-request.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/unauthorized.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/method-not-allowed.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/not-found.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/forbidden.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/not-acceptable.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/request-timeout.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/conflict.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/gone.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/payload-too-large.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/unsupported-media-type.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/unprocessable-entity.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/internal-server-error.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/not-implemented.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/bad-gateway.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/service-unavailable.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/gateway-timeout.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/im-a-teapot.exception.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/exceptions/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/axios/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/http/interfaces/http-module.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/http/interfaces/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/http/http.module.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/http/http.service.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/http/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/pipes/parse-int.pipe.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/pipes/parse-uuid.pipe.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/external/class-transform-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/external/validator-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/pipes/validation.pipe.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/pipes/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/serializer/class-serializer.interceptor.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/serializer/decorators/serialize-options.decorator.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/serializer/decorators/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/serializer/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/services/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/utils/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.service.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.controller.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/dist/common/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/dist/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/mongoose/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/bson/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongodb/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mongoose/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.model.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.service.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.controller.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/poc/poc.module.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.model.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.service.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.controller.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/certification/certification.module.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.model.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.service.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.controller.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/employee/employee.module.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/app.module.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/adapters/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/constants.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/helpers/http-adapter-host.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/helpers/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/exceptions/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/configuration-provider.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/application-config.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/injector/module.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/injector/modules-container.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/injector/container.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/injector/module-ref.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/injector/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/middleware/routes-mapper.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/middleware/builder.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/middleware/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/nest-application-context.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/nest-application.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/nest-factory.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/router/request/request-constants.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/router/request/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/router/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/services/reflector.service.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/services/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@nestjs/core/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/src/main.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/connect/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/body-parser/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/cookiejar/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/range-parser/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express-serve-static-core/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/mime/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/serve-static/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/express/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/jest/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/json5/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/superagent/index.d.ts",
-      "/home/vinod.singh/Desktop/employee-poc/backEnd/node_modules/@types/supertest/index.d.ts"
-    ]
+    "semanticDiagnosticsPerFile": []
   },
   "version": "3.4.3"
 }

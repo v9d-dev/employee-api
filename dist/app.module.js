@@ -13,6 +13,9 @@ const app_service_1 = require("./app.service");
 const poc_module_1 = require("./poc/poc.module");
 const certification_module_1 = require("./certification/certification.module");
 const employee_module_1 = require("./employee/employee.module");
+const nest_access_control_1 = require("nest-access-control");
+const user_roles_1 = require("./auth/user-roles");
+const auth_module_1 = require("./auth/auth.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -24,6 +27,8 @@ AppModule = __decorate([
             mongoose_1.MongooseModule.forRoot('mongodb://localhost:27017/employee-poc', {
                 useNewUrlParser: true,
             }),
+            auth_module_1.AuthModule,
+            nest_access_control_1.AccessControlModule.forRoles(user_roles_1.roles),
         ],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

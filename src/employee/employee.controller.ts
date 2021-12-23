@@ -70,34 +70,39 @@ export class EmployeeController {
     return { id: generatedId };
   }
 
-  
   @Get()
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    possession:  'any',
-    action:  'read',
-    resource:  'employees'
+    possession: 'any',
+    action: 'read',
+    resource: 'employees',
   })
   async getAllEmployee() {
     const employee = await this.employeeService.getEmployees();
     return employee;
   }
 
+  @Post('getdatabyfilter')
+  //@UseGuards(AuthGuard('local'))
+  async getFilterdEmp(@Body('filter') filterData: object) {
+    const employeeData = await this.employeeService.getFilterdEmp(filterData);
+    return { result: employeeData };
+  }
+
   @Get('/:id')
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    possession:  'own',
-    action:  'read',
-    resource:  'employees'
+    possession: 'own',
+    action: 'read',
+    resource: 'employees',
   })
   getEmployee(@Param('id') employeeId: string) {
     return this.employeeService.getSingleEmployee(employeeId);
   }
 
-
   @Get('/auth/:id')
   async getEmployeeID(@Param('id') authID: string) {
-    const employeeId = this.employeeService.getEmployeeID(authID)
+    const employeeId = this.employeeService.getEmployeeID(authID);
     return employeeId;
   }
 
@@ -122,10 +127,11 @@ export class EmployeeController {
     @Body('projectType') projectType: string,
     @Body('primaryKeySkill') primaryKeySkill: string,
     @Body('secondaryKeySkill') secondaryKeySkill: string,
-    @Body('roles') roles: {
-      type: String,
-       enum : ['BU_HEAD', 'HR', 'EMPLOYEE'],
-    } ,
+    @Body('roles')
+    roles: {
+      type: String;
+      enum: ['BU_HEAD', 'HR', 'EMPLOYEE'];
+    },
   ) {
     const data = await this.employeeService.updateEmployee(
       employeeId,
@@ -154,9 +160,9 @@ export class EmployeeController {
   @Delete(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    possession:  'any',
-    action:  'read',
-    resource:  'employees'
+    possession: 'any',
+    action: 'read',
+    resource: 'employees',
   })
   async removeEmployee(@Param('id') employeeId: string) {
     await this.employeeService.deleteEmployee(employeeId);
