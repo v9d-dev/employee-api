@@ -108,11 +108,6 @@ export class PocController {
 
   @Patch(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
-  @UseRoles({
-    resource: 'pocs',
-    action: 'update',
-    possession: 'any',
-  })
   async updatePoc(
     @Param('id') pocId: string,
     @Body('name') name: string,
