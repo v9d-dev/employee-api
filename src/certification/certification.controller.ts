@@ -66,6 +66,22 @@ export class CertificationController {
     return certification;
   }
 
+  @Get('employee/:id?')
+  @UseGuards(AuthGuard('local'), ACGuard)
+  @UseRoles({
+    possession: 'own',
+    action: 'read',
+    resource: 'pocs'
+  })
+  async getEmployeePoc(
+    @Query('filters') filters,
+    @Param('id') employeeId: string
+  ) {
+    const filterData = !!filters ? JSON.parse(filters) : {}
+    const { certification } = await this.employeeService.getSingleEmployee(employeeId);
+    return await this.certificationService.getEmployeeCertification(certification);
+  }
+
   @Post('getdatabyfilter')
   @UseGuards(AuthGuard('local'))
   async getFilterdCertification(@Body('filter') filterData: object) {

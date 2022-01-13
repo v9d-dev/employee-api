@@ -158,4 +158,10 @@ export class CertificationService {
     }
     return certification;
   }
+
+  async getEmployeeCertification(poc) {
+    return await Promise.all(
+      poc.map(async (ele) => await this.findCertification(ele._id))
+    )
+  }
 }
