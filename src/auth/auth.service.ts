@@ -10,7 +10,7 @@ export class AuthService {
   async validateUser(request: Request, username: string, pass: string) {
     try {
       const user = await this.employeeService.getSingleEmployee(username);
-      if( user && (user._id.toString() === request.params.id || user.roles !== UserRoles.EMPLOYEE)) {
+      if( user && (user._id.toString() === username || user.roles !== UserRoles.EMPLOYEE)) {
         const { data } = await axios.get(`https://oauth2.googleapis.com/tokeninfo?id_token=${pass}`).then(res => res).catch(err => err);
         if (data && data.email === user.mailId && Number(new Date()) < Number(`${data.exp}000`) && data.hd === 'successive.tech') {
           return user;

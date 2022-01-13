@@ -17,8 +17,8 @@ export const EmployeeSchema = new mongoose.Schema({
   earlierProject: { type: String },
   currentProject: { type: String },
   projectType: { type: String },
-  primaryKeySkill: { type: String },
-  secondaryKeySkill: { type: String },
+  primaryKeySkill: [{ type: String }],
+  secondaryKeySkill: [{ type: String }],
   roles: {
     type: String,
      enum : ['BU_HEAD', 'HR', 'EMPLOYEE'],
@@ -59,8 +59,8 @@ export interface Employee extends mongoose.Document {
   earlierProject: string;
   currentProject: string;
   projectType: string;
-  primaryKeySkill: string;
-  secondaryKeySkill: string;
+  primaryKeySkill: [string];
+  secondaryKeySkill: [string];
   roles: {
     type: String,
     enum : ['BU_HEAD', 'HR', 'EMPLOYEE'],

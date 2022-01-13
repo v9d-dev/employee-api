@@ -2,7 +2,7 @@ import * as mongoose from 'mongoose';
 
 export const PocSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  techStack: { type: String, required: true },
+  techStack: [{ type: String }],
   description: { type: String, required: true },
   startDate: { type: Date, required: true },
   finishDate: { type: Date, required: true },
@@ -19,7 +19,7 @@ export const PocSchema = new mongoose.Schema({
 
 export interface Poc extends mongoose.Document {
   name: string;
-  techStack: string;
+  techStack: [string];
   description: string;
   startDate: Date;
   finishDate: Date;

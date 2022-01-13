@@ -7,6 +7,7 @@ import {
   Patch,
   Delete,
   UseGuards,
+  Query,
   Logger,
 } from '@nestjs/common';
 import { ACGuard, UseRoles, RolesBuilder } from 'nest-access-control';
@@ -70,15 +71,18 @@ export class EmployeeController {
     return { id: generatedId };
   }
 
-  @Get()
+  @Get('?')
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
     possession: 'any',
     action: 'read',
     resource: 'employees',
   })
-  async getAllEmployee() {
-    const employee = await this.employeeService.getEmployees();
+  async getAllEmployee(
+    @Query('filters') filters,
+  ) {
+    const filterData = !!filters ? JSON.parse(filters) : {}
+    const employee = await this.employeeService.getEmployees(filterData);
     return employee;
   }
 

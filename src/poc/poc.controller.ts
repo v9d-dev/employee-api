@@ -7,6 +7,7 @@ import {
   Patch,
   Delete,
   UseGuards,
+  Query,
 } from '@nestjs/common';
 
 import { ACGuard, UseRoles } from 'nest-access-control';
@@ -55,15 +56,18 @@ export class PocController {
     return { id: generatedId };
   }
 
-  @Get()
+  @Get('?')
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
-    resource: 'pocs',
-    action: 'read',
     possession: 'any',
+    action: 'read',
+    resource: 'pocs'
   })
-  async getAllPoc() {
-    const poc = await this.pocService.getPocs();
+  async getAllPoc(
+    @Query('filters') filters,
+  ) {
+    const filterData = !!filters ? JSON.parse(filters) : {}
+    const poc = await this.pocService.getPocs(filterData);
     return poc;
   }
 

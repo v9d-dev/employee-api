@@ -13,6 +13,14 @@ export class EmployeeService {
     @InjectModel('Employee') private readonly employeeModel: Model<Employee>,
   ) {}
 
+  stringToArray(data: string, regex: boolean = false) {
+    const newData = !!data.length ? data.toUpperCase().split(',').map( ele => {
+      const value = ele.trim();
+      return regex ? new RegExp(value, 'i') : ele;
+    }) : "";
+    return newData
+  }
+
   async insertEmployee(
     employeeNumber: string,
     fullName: string,
@@ -36,6 +44,8 @@ export class EmployeeService {
     // createdAt: Date,
     //updatedAt: Date,
   ) {
+    const primaryKeySkillArray = this.stringToArray(primaryKeySkill);
+    const secondaryKeySkillArray = this.stringToArray(secondaryKeySkill);
     const newEmployee = new this.employeeModel({
       employeeNumber,
       fullName,
@@ -52,8 +62,8 @@ export class EmployeeService {
       earlierProject,
       currentProject,
       projectType,
-      primaryKeySkill,
-      secondaryKeySkill,
+      primaryKeySkill: primaryKeySkillArray,
+      secondaryKeySkill: secondaryKeySkillArray,
       roles,
       authID,
     });
@@ -61,8 +71,25 @@ export class EmployeeService {
     return result.id as string;
   }
 
-  async getEmployees() {
-    const employee = await this.employeeModel.find().exec();
+  async filterValue(filterData: object) {
+    for (const [key, value] of Object.entries(filterData)) {
+      if(value.length) {
+        if(key === "primaryKeySkill" || key === "secondaryKeySkill") {
+          const keySkill = this.stringToArray(value, true);
+          filterData[key] = { $all: keySkill };
+          continue;
+        }
+        filterData[key] =  new RegExp(value, 'i');
+      } else {
+        delete filterData[key];
+      }
+    }
+    return filterData;
+  }
+
+  async getEmployees(filterData: object) {
+    const filter = await this.filterValue(filterData);
+    const employee = await this.employeeModel.find(filter).exec();
     return employee.map(data => ({
       employeeNumber: data.employeeNumber,
       fullName: data.fullName,
@@ -141,6 +168,8 @@ export class EmployeeService {
     },
   ) {
     const updatedEmployee = await this.findEmployee(employeeId);
+    const primaryKeySkillArray: [string] = this.stringToArray(primaryKeySkill);
+    const secondaryKeySkillArray: [string] = this.stringToArray(secondaryKeySkill);
     if (employeeNumber) {
       updatedEmployee.employeeNumber = employeeNumber;
     }
@@ -187,10 +216,10 @@ export class EmployeeService {
       updatedEmployee.projectType = projectType;
     }
     if (primaryKeySkill) {
-      updatedEmployee.primaryKeySkill = primaryKeySkill;
+      updatedEmployee.primaryKeySkill = primaryKeySkillArray;
     }
     if (secondaryKeySkill) {
-      updatedEmployee.secondaryKeySkill = secondaryKeySkill;
+      updatedEmployee.secondaryKeySkill = secondaryKeySkillArray;
     }
     if (roles) {
       updatedEmployee.roles = roles;

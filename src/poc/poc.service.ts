@@ -8,6 +8,16 @@ import { Poc } from './poc.model';
 export class PocService {
   constructor(@InjectModel('Poc') private readonly pocModel: Model<Poc>) {}
 
+
+  stringToArray(data: string, regex: boolean = false) {
+    const newData = !!data.length ? data.toUpperCase().split(',').map( ele => {
+      const value = ele.trim();
+      return regex ? new RegExp(value, 'i') : ele;
+    }) : "";
+    return newData
+  }
+
+
   async insertPoc(
     name: string,
     techStack: string,
@@ -18,9 +28,10 @@ export class PocService {
     demoUrl: string,
     employeeId: string,
   ) {
+    const techArray = this.stringToArray(techStack);
     const newPoc = new this.pocModel({
       name,
-      techStack,
+      techStack: techArray,
       description: desc,
       startDate,
       finishDate,
@@ -32,8 +43,25 @@ export class PocService {
     return result.id as string;
   }
 
-  async getPocs() {
-    const poc = await this.pocModel.find().exec();
+  async filterValue(filterData: object) {
+    for (const [key, value] of Object.entries(filterData)) {
+      if(value.length) {
+        if(key === "techStack") {
+          const techStack = this.stringToArray(value, true);
+          filterData[key] = { $all: techStack };
+          continue;
+        }
+        filterData[key] =  new RegExp(value, 'i');
+      } else {
+        delete filterData[key];
+      }
+    }
+    return filterData;
+  }
+
+  async getPocs(filterData: object) {
+    const filter = await this.filterValue(filterData);
+    const poc = await this.pocModel.find(filter).exec();
     return poc.map(data => ({
       id: data.id,
       name: data.name,
@@ -89,6 +117,7 @@ export class PocService {
     employeeId: string,
   ) {
     const updatedPoc = await this.findPoc(pocId);
+    const techArray: [string] = this.stringToArray(techStack);
     if (name) {
       updatedPoc.name = name;
     }
@@ -96,7 +125,7 @@ export class PocService {
       updatedPoc.description = desc;
     }
     if (techStack) {
-      updatedPoc.techStack = techStack;
+      updatedPoc.techStack = techArray;
     }
     if (startDate) {
       updatedPoc.startDate = startDate;

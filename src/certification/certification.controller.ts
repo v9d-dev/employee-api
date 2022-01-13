@@ -7,6 +7,7 @@ import {
   Patch,
   Delete,
   UseGuards,
+  Query,
 } from '@nestjs/common';
 
 import { ACGuard, UseRoles } from 'nest-access-control';
@@ -50,15 +51,18 @@ export class CertificationController {
     return { id: generatedId };
   }
 
-  @Get()
+  @Get('?')
   @UseGuards(AuthGuard('local'), ACGuard)
   @UseRoles({
     possession: 'any',
     action: 'read',
     resource: 'certifications',
   })
-  async getAllCertification() {
-    const certification = await this.certificationService.getCertifications();
+  async getAllCertification(
+    @Query('filters') filters,
+  ) {
+    const filterData = !!filters ? JSON.parse(filters) : {}
+    const certification = await this.certificationService.getCertifications(filterData);
     return certification;
   }
 
