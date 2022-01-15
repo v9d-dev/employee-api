@@ -8,15 +8,18 @@ import { Poc } from './poc.model';
 export class PocService {
   constructor(@InjectModel('Poc') private readonly pocModel: Model<Poc>) {}
 
-
   stringToArray(data: string, regex: boolean = false) {
-    const newData = !!data.length ? data.toUpperCase().split(',').map( ele => {
-      const value = ele.trim();
-      return regex ? new RegExp(value, 'i') : ele;
-    }) : "";
-    return newData
+    const newData = !!data.length
+      ? data
+          .toUpperCase()
+          .split(',')
+          .map(ele => {
+            const value = ele.trim();
+            return regex ? new RegExp(value, 'i') : ele;
+          })
+      : '';
+    return newData;
   }
-
 
   async insertPoc(
     name: string,
@@ -45,13 +48,13 @@ export class PocService {
 
   async filterValue(filterData: object) {
     for (const [key, value] of Object.entries(filterData)) {
-      if(value.length) {
-        if(key === "techStack") {
+      if (value.length) {
+        if (key === 'techStack') {
           const techStack = this.stringToArray(value, true);
           filterData[key] = { $all: techStack };
           continue;
         }
-        filterData[key] =  new RegExp(value, 'i');
+        filterData[key] = new RegExp(value, 'i');
       } else {
         delete filterData[key];
       }
@@ -170,8 +173,11 @@ export class PocService {
   }
 
   async getEmployeePoc(poc) {
-    return await Promise.all(
-      poc.map(async (ele) => await this.findPoc(ele._id))
-    )
+    return await Promise.all(poc.map(async ele => await this.findPoc(ele._id)));
+  }
+
+  async importPocData(dataArr: any) {
+    const poc = await this.pocModel.insertMany(dataArr);
+    return poc;
   }
 }

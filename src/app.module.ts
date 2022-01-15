@@ -9,6 +9,7 @@ import { EmployeeModule } from './employee/employee.module';
 import { AccessControlModule } from 'nest-access-control';
 import { roles } from './auth/user-roles';
 import { AuthModule } from './auth/auth.module';
+//import { CsvModule } from 'nest-csv-parser';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { AuthModule } from './auth/auth.module';
     }),
     AuthModule,
     AccessControlModule.forRoles(roles),
+    // CsvModule,
   ],
   controllers: [AppController],
   providers: [AppService],
