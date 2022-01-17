@@ -298,4 +298,40 @@ export class EmployeeService {
 
     return updatedEmployee.save();
   }
+
+  async deleteEmployeePoc(
+    employeeId: string,
+    pocId: string,
+  ) {
+    const id =  new mongoose.Types.ObjectId(pocId)
+    const empId = new mongoose.Types.ObjectId(employeeId)
+    await this.employeeModel.updateOne(
+      { _id:  empId },
+      { $pull: { poc: { _id: id}}},
+      { 'new': true },
+        function(error, doc) {
+          console.log('Error: ' + error);
+          console.log('doc====',  JSON.stringify(doc));
+        }
+    );
+    return ;
+  }
+
+  async deleteEmployeeCertififation(
+    employeeId: string,
+    certificationId: string,
+  ) {
+    const certificateId =  new mongoose.Types.ObjectId(certificationId)
+    const empId = new mongoose.Types.ObjectId(employeeId)
+    await this.employeeModel.updateOne(
+      { _id:  empId },
+      { $pull: { certification: { _id: certificateId}}},
+      { 'new': true },
+        function(error, doc) {
+          console.log('Error: ' + error);
+          console.log('doc====',  JSON.stringify(doc));
+        }
+    );
+    return ;
+  }
 }

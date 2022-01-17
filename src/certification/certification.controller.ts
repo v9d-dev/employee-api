@@ -123,6 +123,8 @@ export class CertificationController {
   @Delete(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
   async removeCertification(@Param('id') certId: string) {
+    const { employeeId } = await this.certificationService.getSingleCertification(certId);
+    await this.employeeService.deleteEmployeeCertififation(employeeId, certId)
     await this.certificationService.deleteCertification(certId);
     return null;
   }

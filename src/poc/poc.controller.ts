@@ -246,6 +246,8 @@ export class PocController {
     possession: 'any',
   })
   async removePoc(@Param('id') pocId: string) {
+    const { employeeId } = await this.pocService.getSinglePoc(pocId);
+    await this.employeeService.deleteEmployeePoc(employeeId, pocId)
     await this.pocService.deletePoc(pocId);
     return null;
   }
