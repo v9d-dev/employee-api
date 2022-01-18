@@ -240,11 +240,6 @@ export class PocController {
 
   @Delete(':id')
   @UseGuards(AuthGuard('local'), ACGuard)
-  @UseRoles({
-    resource: 'pocs',
-    action: 'delete',
-    possession: 'any',
-  })
   async removePoc(@Param('id') pocId: string) {
     const { employeeId } = await this.pocService.getSinglePoc(pocId);
     await this.employeeService.deleteEmployeePoc(employeeId, pocId)
